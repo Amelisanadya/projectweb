@@ -38,3 +38,13 @@ nav ul li a:hover {
     color: black;
     transition: 0,5s;
 }
+
+.sosial-icon {
+    display: flex;
+    margin-top: 3em;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-left: 48em;
+    width: 4em;
+   
+}
