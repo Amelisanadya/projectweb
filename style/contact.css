@@ -1,13 +1,17 @@
 *{
     padding: 0;
     margin: 0;
+}
+a {
     text-decoration: none;
+    color: inherit;
 }
 .home {
     height: 100vh;
     width: 100%;
     background-color: #e7dfd8;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -16,6 +20,9 @@ nav {
     padding-bottom: 10px;
     padding-left: 8%;
     padding-right: 8%;
+}
+.judul {
+    text-align: center;
 }
 .logo {
     color: #574533;
@@ -39,12 +46,22 @@ nav ul li a:hover {
     transition: 0,5s;
 }
 
+.personal {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.personal div {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
 .sosial-icon {
     display: flex;
     margin-top: 3em;
-    justify-content: space-between;
-    padding-bottom: 10px;
-    padding-left: 48em;
-    width: 4em;
-   
+    gap: 1em;
+    justify-content: center;
 }
